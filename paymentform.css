@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+</style>
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(132, 0, 255, 0.671);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    background-color: rgba(2200, 255, 253, 0.555);
+    width: 500px;
+    padding: 75px;
+    margin: 50px auto 0;
+}
+.wrapper h2 {
+    background-color: whitesmoke;
+    color: rgb(0, 5, 20);
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted #333;    
+}
+h4 {
+    padding-bottom: 5px;
+    color: rgb(0, 5, 20);
+    
+}
+.input-group {
+    margin-bottom: 8px;
+    width: 100px;
+    flex-direction: row;
+    position: relative;
+    padding: 5px 0;
+    display: flex;
+
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    background: transparent;
+    border: 0;
+}
+::-webkit-input-placeholder{
+    color:grey;
+}
+
+@media screen and (max-width: 600px)
